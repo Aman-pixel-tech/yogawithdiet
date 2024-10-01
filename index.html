@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YOGA WITH BMI</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">YOGA WITH BALANCE DIET</a>
+    </div>
+    <div class="toggle-button">
+      &#9776;
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#test">Review</a></li>
+      <li><a href="#cards-container">Yoga</a></li>
+      <li><a href="#bmi">BMI Calculator</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </nav>
+  <section id="yoga" class="yoga-section">
+    <h2 class="yoga-heading">Discover the Essence of Yoga</h2>
+    <p class="yoga-description">Yoga is the journey of the self, through the self, to the self. It enhances your mental
+      and physical well-being, bringing peace and harmony to your life.</p>
+
+    <!-- Animated Circle Representing Yoga Energy -->
+    <div class="energy-circle">
+      <div class="inner-circle"></div>
+    </div>
+
+    <!-- Floating Yoga Words for Calming Effect -->
+    <div class="yoga-words">
+      <span class="word">Balance</span>
+      <span class="word">Focus</span>
+      <span class="word">Peace</span>
+      <span class="word">Strength</span>
+      <span class="word">Mindfulness</span>
+    </div>
+
+  </section>
+  <section class="yoga-section">
+    <h1 class="yoga-heading">Explore Yoga</h1>
+    <p class="yoga-description">Discover the power of yoga. Learn about different poses and techniques that promote
+      health and well-being.</p>
+
+    <!-- Cards Container -->
+    <div id="cards-container" class="cards-container">
+      <!-- Initially Visible Yoga Cards -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img1.jpeg" alt="Yoga Pose 1">
+            <h3>Mountain Pose</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Mountain Pose</h3>
+            <p>A foundational standing pose that helps with balance and posture.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img2.jpeg" alt="Yoga Pose 2">
+            <h3>Downward Dog</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Downward Dog</h3>
+            <p>A popular pose that stretches and strengthens the entire body.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img3.jpeg" alt="Yoga Pose 3">
+            <h3>Tree Pose</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Tree Pose</h3>
+            <p>A balancing pose that improves focus and concentration.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Yoga Cards -->
+      <div class="card hidden-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img10.avif" alt="Yoga Pose 4">
+            <h3>Warrior Pose</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Warrior Pose</h3>
+            <p>A powerful standing pose that builds strength and stamina.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hidden-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img12.jpeg" alt="Yoga Pose 5">
+            <h3>Bridge Pose</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Bridge Pose</h3>
+            <p>A backbend pose that stretches the spine and chest.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hidden-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img11.jpg" alt="Yoga Pose 6">
+            <h3>Child's Pose</h3>
+          </div>
+          <div class="card-back1">
+            <h3>Child's Pose</h3>
+            <p>A gentle resting pose that calms the mind and body.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Show More Button -->
+    <button id="show-more-btn" class="show-more-btn">Show More</button>
+    <div class="yoga-timer">
+      <h2>Yoga Breathing Exercise</h2>
+      <div class="breathing-circle"></div>
+      <button id="start-timer">Start Breathing Exercise</button>
+    </div>
+
+  </section>
+  <section class="diet-section">
+    <h1 class="diet-heading">Balanced Diet</h1>
+    <p class="diet-description">A balanced diet is crucial for maintaining good health and well-being. It helps ensure
+      that your body gets all the essential nutrients it needs to function properly. Here's how a balanced diet
+      contributes to overall health:</p>
+
+    <div class="diet-content">
+      <div class="diet-card">
+        <img src="img/img4.jpg" alt="Fruits">
+        <div class="card-overlay">
+          <h3>Fruits</h3>
+          <p>Fruits are rich in vitamins, minerals, and fiber. They help boost the immune system and improve digestive
+            health.</p>
+        </div>
+      </div>
+
+      <div class="diet-card">
+        <img src="img/img5.jpg" alt="Vegetables">
+        <div class="card-overlay">
+          <h3>Vegetables</h3>
+          <p>Vegetables provide essential nutrients and antioxidants. They help reduce the risk of chronic diseases and
+            improve overall health.</p>
+        </div>
+      </div>
+
+      <div class="diet-card">
+        <img src="img/img6.jpeg" alt="Whole Grains">
+        <div class="card-overlay">
+          <h3>Whole Grains</h3>
+          <p>Whole grains are a good source of fiber, vitamins, and minerals. They support heart health and aid in
+            digestion.</p>
+        </div>
+      </div>
+
+      <div class="diet-card">
+        <img src="img/img7.jpeg" alt="Protein">
+        <div class="card-overlay">
+          <h3>Proteins</h3>
+          <p>Proteins are essential for muscle growth and repair. They also help in maintaining healthy skin and hair.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="calculator">
+      <h2>Daily Caloric Needs Calculator</h2>
+      <form id="calculator-form">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" required>
+
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height" required>
+
+        <label for="activity-level">Activity Level:</label>
+        <select id="activity-level" name="activity-level">
+          <option value="sedentary">Sedentary</option>
+          <option value="light">Lightly active</option>
+          <option value="moderate">Moderately active</option>
+          <option value="very-active">Very active</option>
+        </select>
+
+        <button type="button" id="calculate-btn">Calculate</button>
+      </form>
+      <div id="result" class="result"></div>
+    </div>
+
+    <!-- Diet Tips Slider -->
+    <div class="tips-slider">
+      <h2>Diet Tips</h2>
+      <div class="slides">
+        <div class="slide">Eat a variety of foods to ensure you're getting a range of nutrients.</div>
+        <div class="slide">Limit your intake of processed foods high in sugar and salt.</div>
+        <div class="slide">Drink plenty of water throughout the day to stay hydrated.</div>
+        <div class="slide">Balance your meals with a mix of proteins, carbohydrates, and fats.</div>
+        <div class="slide">Incorporate more fruits and vegetables into your daily diet.</div>
+      </div>
+    </div>
+
+    <!-- Infographic -->
+    <div class="infographic">
+      <img src="img/img8.avif" alt="Balanced Diet Infographic">
+    </div>
+
+
+
+
+
+    <h1 class="main-heading">HEALTHY BALANCE DIET RECIPE PLAN</h1>
+
+    <div class="card-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img9.jpg" alt="Grilled Chicken Salad" class="card-img">
+            <h3>Grilled Chicken Salad</h3>
+          </div>
+          <div class="card-back">
+            <h3>Grilled Chicken Salad</h3>
+            <p>A protein-packed salad with grilled chicken, veggies, and a tangy dressing.</p>
+            <ul>
+              <li>Grilled chicken breast</li>
+              <li>Mixed greens</li>
+              <li>Cherry tomatoes</li>
+              <li>Cucumber</li>
+              <li>Olive oil & balsamic vinegar</li>
+            </ul>
+            <p><strong>Calories:</strong> 350 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img13.jpg" alt="Avocado Toast with Poached Egg" class="card-img">
+            <h3>Avocado Toast with Poached Egg</h3>
+          </div>
+          <div class="card-back">
+            <h3>Avocado Toast with Poached Egg</h3>
+            <p>A perfect balance of healthy fats and proteins.</p>
+            <ul>
+              <li>Whole grain bread</li>
+              <li>Mashed avocado</li>
+              <li>Poached egg</li>
+              <li>Lemon juice & chili flakes</li>
+            </ul>
+            <p><strong>Calories:</strong> 280 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img14.jpg" alt="Quinoa Veggie Bowl" class="card-img">
+            <h3>Quinoa Veggie Bowl</h3>
+          </div>
+          <div class="card-back">
+            <h3>Quinoa Veggie Bowl</h3>
+            <p>A fiber-rich bowl with quinoa and fresh seasonal veggies.</p>
+            <ul>
+              <li>Cooked quinoa</li>
+              <li>Bell peppers</li>
+              <li>Broccoli</li>
+              <li>Avocado</li>
+              <li>Tahini dressing</li>
+            </ul>
+            <p><strong>Calories:</strong> 400 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 (hidden by default) -->
+      <div class="card hidden">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img17.jpg" alt="Smoothie Bowl" class="card-img">
+            <h3>Berry Banana Smoothie Bowl</h3>
+          </div>
+          <div class="card-back">
+            <h3>Berry Banana Smoothie Bowl</h3>
+            <p>A nutrient-packed smoothie bowl topped with fresh fruits and seeds.</p>
+            <ul>
+              <li>Frozen berries</li>
+              <li>Banana</li>
+              <li>Almond milk</li>
+              <li>Chia seeds & granola topping</li>
+            </ul>
+            <p><strong>Calories:</strong> 320 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 (hidden by default) -->
+      <div class="card hidden">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img15.jpg" alt="Baked Salmon with Asparagus" class="card-img">
+            <h3>Baked Salmon with Asparagus</h3>
+          </div>
+          <div class="card-back">
+            <h3>Baked Salmon with Asparagus</h3>
+            <p>A heart-healthy dish loaded with omega-3 fatty acids and vitamins.</p>
+            <ul>
+              <li>Salmon fillet</li>
+              <li>Asparagus spears</li>
+              <li>Lemon zest</li>
+              <li>Olive oil</li>
+              <li>Garlic</li>
+            </ul>
+            <p><strong>Calories:</strong> 450 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 (hidden by default) -->
+      <div class="card hidden">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/img16.jpg" alt="Chickpea & Spinach Curry" class="card-img">
+            <h3>Chickpea & Spinach Curry</h3>
+          </div>
+          <div class="card-back">
+            <h3>Chickpea & Spinach Curry</h3>
+            <p>A warm, comforting plant-based curry with chickpeas and spinach.</p>
+            <ul>
+              <li>Canned chickpeas</li>
+              <li>Fresh spinach</li>
+              <li>Coconut milk</li>
+              <li>Curry powder</li>
+              <li>Garlic & ginger</li>
+            </ul>
+            <p><strong>Calories:</strong> 300 kcal</p>
+            <button class="recipe-btn">See Recipe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Show More Button -->
+    <button class="show-more-btn" onclick="showMore()">Show More</button>
+
+
+    <section class="last-section" id="bmi">
+
+      <div class="bmi-container">
+        <h1 class="bmi-heading">BMI CALCULATOR</h1>
+
+        <div class="bmi-form">
+          <label for="weight">Weight (kg):</label>
+          <input type="number" id="weight1" class="bmi-input" placeholder="Enter your weight" required>
+          <label for="height">Height (cm):</label>
+          <input type="number" id="height1" class="bmi-input" placeholder="Enter your height" required>
+          <button id="calculate-bmi" class="bmi-btn">Calculate BMI</button>
+        </div>
+
+        <div id="bmi-result" class="bmi-result"></div>
+
+        <div id="recommendations" class="recommendations hidden1">
+          <!-- Recommendations will be added here dynamically -->
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-section" id="test">
+      <h2>What Our Users Say</h2>
+      <div class="testimonial-cards" id="testimonial-container">
+        <!-- Testimonials will be injected here by JavaScript -->
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="contact-card">
+        <h2>Collaborate with Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="contact-number" required>
+          </div>
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="button1">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="your-logo.png" alt="Yoga Website Logo">
+        <p>Your journey to wellness starts here. Embrace tranquility and balance.</p>
+      </div>
+      <div class="footer-nav">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@yogawebsite.com">info@yogawebsite.com</a></p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+      <div class="footer-newsletter">
+        <h3>Stay Updated</h3>
+        <form>
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" class="social-icon"><img src="facebook-icon.png"
+            alt="Facebook"></a>
+        <a href="https://instagram.com" target="_blank" class="social-icon"><img src="instagram-icon.png"
+            alt="Instagram"></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Yoga Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
